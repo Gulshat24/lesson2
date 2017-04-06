@@ -62,3 +62,48 @@ color:#f70;
 .google{
  color:#666;
  }
+ tr:nth-child(2n) {
+ background:#ddebf7;
+ }
+ tr:nth-child(2n+1) {
+  background:#f2f2de;
+  }
+#red{
+ text-decoration:underline;
+}
+#green{
+  text-decoration:underline;
+  }
+#blue{
+   text-decoration:underline;
+}
+   .red{
+   border:1px solid black;
+   border-radius:30%;
+   padding:1px;
+   background:red;
+   color:white;
+   }
+    .green{
+      border:1px solid black;
+      border-radius:30%;
+      padding:1px;
+      background:green;
+      color:white;
+      }
+       .blue{
+         border:1px solid black;
+         border-radius:30%;
+         padding:1px;
+         background:blue;
+         color:white;
+        }
+{
+display:none;
+}
+#green1.checked~.green{
+display:none;
+}
+#blue.checked~.blue{
+display:none;
+}
